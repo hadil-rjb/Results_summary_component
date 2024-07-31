@@ -1,0 +1,103 @@
+.hanken-grotesk {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-size: 18px !important;
+    background-color: hsl(0, 0%, 100%) !important;
+}
+
+main {
+    min-height: 100vh !important;
+}
+
+.test {
+    border-radius: 1rem;
+    box-shadow: 20px 20px 30px hsl(221, 100%, 96%);
+    width: 700px;
+}
+
+.premier {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    text-align: center;
+    padding: 2.5rem !important;
+    border-radius: 1rem;
+}
+
+.place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.cercle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    padding: 1rem;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result-section h1 {
+    font-weight: 800;
+    margin: 0;
+    font-size: 4rem;
+}
+
+.result-section p {
+    font-size: medium;
+    margin: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.second {
+    padding: 2rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    width: 60px;
+}
+
+.menu {
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.btn-continue {
+    display: block;
+    width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1rem;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width: 767px) {
+
+    main {
+        min-height: 0vh !important;
+    }
+
+    .premier {
+        border-radius: 0 0 1rem 1rem;
+    }
+}
